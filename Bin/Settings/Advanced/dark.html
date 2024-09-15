@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+
+<style type="text/css">
+    @import"./../../Button/dark.css";
+    body {
+      font-family: '华康方圆体W7',sans-serif;
+      background-color: #121212
+    }
+    p {
+      color: #ffffff;
+    }
+    .container {
+      display: flex; /* 使用 Flexbox */
+      align-items: center; /* 垂直居中对齐子元素 */
+    }
+    .container1 {
+      display: flex; /* 使用 Flexbox */
+      align-items: center; /* 垂直居中对齐子元素 */
+      transform:translateY(-15px)
+    }
+  </style>
+<head>
+  <title>高级设置</title>
+</head>
+<body>
+  <div class="container">
+  <p>New 垃圾清理</p>
+  <button class="InButton3" onclick="Beta_Clean()">启动</Button>
+  </div>
+  <div class="container1">
+  <p>&nbsp&nbsp&nbsp&nbsp此功能需要Python、tktools。Windows 7 需要 VxKex 兼容层，然后勾选为子进程禁用 VxKex，如果打不开请自行运行 安装目录\Bin\Home\Clean\Clean.py</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿    .Button,.InButton1,.InButton2,.InButton3 {
+        background-color: #fbfbfc;
+        border-radius: 8px;
+        border: none;
+        color: #1f1f1f;
+        padding: 12px 16px;
+  	float: right;
+        text-align: center;
+        text-decoration: none;
+        font-family: '华康方圆体W7',sans-serif;
+        display: inline-block;
+        outline: none;
+        font-size: 15px;
+        margin: 4px 2px;
+        box-shadow: 0 1px 0px 0 rgba(0,0,0,0.2);
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border: 1px solid #e5e5e5;
+  }
+      .Button:hover,.InButton1:hover,.InButton2:hover,.InButton3:hover {
+        background-color: #f6f6f6;
+      }
+    .Button:active,.InButton1:active,.InButton2:active,.InButton3:active {
+        background-color: #f3f5f7;
+        box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+        color: #959697;
+    }
+    .InButton1 {
+        border-radius: 6px;
+        padding: 10px 10px;
+        font-size: 13px;
+  }
+    .InButton2 {
+        border-radius: 6px;
+        padding: 6px 20px;
+        font-size: 13px;
+  }
+    .InButton3 {
+        border-radius: 6px;
+        padding: 10px 23px;
+        font-size: 13px;
+        margin-left:435px;
+  }

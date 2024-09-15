@@ -1,0 +1,1 @@
+对于 Windows 7 用户，你需要安装并对 安装目录\Bin\ANK_CORE\ANK_CORE.exe 启用 VxKex（如何下载请自行 Bing）
